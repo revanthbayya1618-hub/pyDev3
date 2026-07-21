@@ -1,116 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NGO Help - Serving Humanity</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NGO Help - Serving Humanity</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- HEADER -->
-    <header class="navbar">
-        <div class="logo">NGO Help</div>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#services">Our Work</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </nav>
-        <a href="#donate" class="btn-donate">Donate Now</a>
-    </header>
+<header class="navbar">
+    <div class="logo">NGO <span>Help</span></div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#work">Our Work</a>
+        <a href="#about">About</a>
+    </nav>
+    <a href="#donate" class="btn-donate">Donate Now</a>
+</header>
 
-    <!-- HERO SECTION -->
-    <section class="hero" id="home">
-        <div class="blue-shape"></div>
-        
-        <div class="hero-content">
-            <p class="sub-heading">Together We Can Make a Difference</p>
-            <h1>For NGO <br> Humanity Help</h1>
-            <p class="desc">We provide Food for Hungry, Education for Children, Healthcare for Villages, and Support for Underprivileged Communities.</p>
-            <a href="#services" class="btn-read">Read More</a>
-            <a href="#donate" class="btn-read btn-orange">Donate Now</a>
+<section class="hero" id="home">
+    <div class="hero-content">
+        <p class="sub">Together We Can Make a Difference</p>
+        <h1>For NGO <br> Humanity Help</h1>
+        <p>We provide Food for Hungry, Education for Children, Healthcare for Villages.</p>
+        <div class="hero-btns">
+            <a href="#about" class="btn-white">Read More</a>
+            <a href="#donate" class="btn-orange">Donate Now</a>
         </div>
+    </div>
+    <div class="hero-green"></div>
+</section>
 
-        <div class="hero-image">
-            <img src="https://images.unsplash.com/photo-1488521787991-28f2ddbb4d5c?q=80&w=500" alt="NGO Help">
+<section class="services" id="work">
+    <h2 class="section-title">Our Programs</h2>
+    <div class="service-grid">
+        <div class="card">
+            <div class="card-icon">🍛</div>
+            <h3>Food For Hungry</h3>
+            <p>Daily meals and ration kits for families living in poverty.</p>
+            <a href="#donate" class="btn-outline">Donate Food</a>
         </div>
-
-        <!-- Right Side Contact Bar -->
-        <div class="side-bar">
-            <p class="phone"><i class="fa fa-phone"></i> +91 98765 43210</p>
-            <p class="email"><i class="fa fa-envelope"></i> contact@ngohelp.org</p>
-            <div class="social">
-                <p>Follow Us</p>
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-            </div>
+        <div class="card">
+            <div class="card-icon">📚</div>
+            <h3>Education For Children</h3>
+            <p>Free books, school fees and digital learning support.</p>
+            <a href="#donate" class="btn-outline">Sponsor a Child</a>
         </div>
-
-        <!-- Slider Dots -->
-        <div class="dots">
-            <span></span>
-            <span class="active"></span>
-            <span></span>
+        <div class="card">
+            <div class="card-icon">🏥</div>
+            <h3>Healthcare For Villages</h3>
+            <p>Free medical camps and medicines in rural areas.</p>
+            <a href="#donate" class="btn-outline">Support Health</a>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- SERVICES SECTION -->
-    <section class="services" id="services">
-        <h2 class="section-title">What We Do</h2>
-        <div class="service-card">
-            <i class="fas fa-bowl-rice icon"></i>
-            <h3>Food for All</h3>
-            <p>Providing daily meals and monthly ration kits to 1000+ families. No one should sleep hungry.</p>
-            <a href="#" class="btn-card">Read More</a>
+<!-- SLIDE 3: IMAGE ON LEFT -->
+<section class="about" id="about">
+    <div class="about-img-left">
+        <img src="ngo.webp" alt="Donation Box">
+        <div class="donation-badge">
+            <span>Help Reaches Directly</span>
         </div>
+    </div>
+    <div class="about-content-right">
+        <h2>We Help From <br> The Start to <span>Recovery</span></h2>
+        <p>With your support we have impacted 50,000+ lives. Every rupee you donate goes directly to the people who need it most.</p>
+        <ul class="checklist">
+            <li>100% Transparent donation reports</li>
+            <li>Tax Exemption under 80G available</li>
+            <li>Volunteers across 20+ cities in India</li>
+        </ul>
+        <a href="#donate" class="btn-green" id="donate">Become a Donor</a>
+    </div>
+</section>
 
-        <div class="service-card">
-            <i class="fas fa-book-open icon"></i>
-            <h3>Education Support</h3>
-            <p>Free tuition centers, school kits, and scholarships for underprivileged children across India.</p>
-            <a href="#" class="btn-card">Read More</a>
-        </div>
-
-        <div class="service-card">
-            <i class="fas fa-heart-pulse icon"></i>
-            <h3>Healthcare Camps</h3>
-            <p>Free medical checkups, medicines, and health awareness programs in rural villages.</p>
-            <a href="#" class="btn-card">Read More</a>
-        </div>
-    </section>
-
-    <!-- DONATION SECTION -->
-    <section class="donate" id="donate">
-        <h2>Support Our Cause</h2>
-        <p>Your donation can change a life. Every rupee counts.</p>
-        <div class="donate-box">
-            <p><b>₹500</b> = Feeds 1 family for a week</p>
-            <p><b>₹1000</b> = Educates 1 child for a month</p>
-            <p><b>₹5000</b> = Medical camp for 50 people</p>
-            <a href="#" class="btn-donate-big">Donate Online</a>
-        </div>
-    </section>
-
-    <!-- ABOUT SECTION -->
-    <section class="about" id="about">
-        <h2>About NGO Help</h2>
-        <p>Founded in 2020, NGO Help is dedicated to creating a better future for underprivileged communities. We work with transparency and serve with compassion.</p>
-    </section>
-
-    <!-- CONTACT SECTION -->
-    <section class="contact" id="contact">
-        <h2>Contact Us</h2>
-        <p>Email: contact@ngohelp.org | Phone: +91 98765 43210</p>
-        <p>Address: Hyderabad, Telangana, India</p>
-    </section>
-
-    <!-- FOOTER -->
-    <footer>
-        <p>© 2026 NGO Help Foundation. All Rights Reserved. | 80G Certified</p>
-    </footer>
+<footer
+ id="contact">
+    <p>© 2025 NGO Help. All Rights Reserved.</p>
+</footer>
 
 </body>
 </html>
